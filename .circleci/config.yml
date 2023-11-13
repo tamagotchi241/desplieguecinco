@@ -29,7 +29,7 @@ jobs:
           name: Deploy to Railway App
           command: |
             cd bankchurn-api 
-            railway link projectid serviceid
+            railway link 17300638-188b-46d9-aa0a-5e572e1d0b8f 9930eefe-a618-4ec6-a064-359e4eabb898
             railway up --detach
 
 
